@@ -1,0 +1,24 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+header nav ul {
+    display: flex;
+    padding: 0 100px;
+}
+
+header ul li {
+    list-style: none;
+    padding: 0 10px;
+}
+
+header li a {
+    text-decoration: none;
+    color: green;
+}
