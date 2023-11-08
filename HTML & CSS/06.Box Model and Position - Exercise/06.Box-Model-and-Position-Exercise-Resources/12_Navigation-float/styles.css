@@ -1,0 +1,102 @@
+body {
+    background: rgb(238, 238, 238);
+    padding: 0 5em 0 5em;
+    line-height: 1.2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, serif;
+    font-size: 1.2em;
+}
+
+.site-title {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+.title-nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+}
+
+header nav ul li {
+    list-style: none;
+    float: left;
+    margin: 50px 0 0 10px;
+}
+
+a {
+    color: rgb(0, 102, 0);
+    text-decoration: none;
+}
+
+main {
+    display: inline-block;
+    width: 50%;
+}
+
+aside {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50px;
+}
+
+.first-section .box-shadow {
+    display: block;
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+.p-left-side {
+    width: 50%;
+}
+
+blockquote {
+    border-left: 4px solid lightgrey;
+    padding-left: 10px;
+    width: 50%;
+    float: right;
+}
+
+blockquote p {
+    font-family: Georgia, serif;
+}
+
+blockquote :nth-child(2) {
+    float: right;
+}
+
+.third-section .box-shadow {
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+.box-shadow {
+    position: relative;
+    border: 3px solid black;
+}
+
+.box-shadow img {
+    display: block;
+    width: 200px;
+    height: auto;
+}
+
+.inner-shadow {
+    display: block;
+    position: absolute;
+    border: 8px solid white;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: 0 0 1em 0.5em rgba(0, 0, 0, 0.25) inset;
+}
