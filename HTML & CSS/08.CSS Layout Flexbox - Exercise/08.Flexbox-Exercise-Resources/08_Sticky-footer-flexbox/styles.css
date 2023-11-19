@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font: 16px/1.5 Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    border: 3px solid black;
+}
+
+h1 {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    padding: 20px 20px;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 1.5em 0 1em 0;
+    font-family: serif;
+    font-weight: normal;
+}
+
+main p {
+    padding-bottom: 1em;
+}
+
+header {
+    border-bottom: 3px solid black;
+}
+
+main {
+    flex: 1 1 auto;
+    padding: 20px 20px;
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 102, 102);
+    padding: 20px 20px;
+}
