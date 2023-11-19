@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(238, 238, 238);
+}
+
+.container {
+    display: flex;
+}
+
+.container ul {
+    display: flex;
+    gap: 2em;
+}
+
+.container li {
+    display: block;
+    width: 10em;
+    height: 25em;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 1em 0.5em rgb(0, 0, 0, 0.5);
+    transition: width 0.5s ease-in-out;
+}
+
+.container img {
+    display: block;
+    width: auto;
+    height: 100%;
+    transform: translateX(-50%);
+    transition: transform 0.5s ease-in-out;
+}
+
+.container ul li:hover {
+    width: 37em;
+}
+
+.container ul li:hover img {
+    transform: translateX(0);
+}
