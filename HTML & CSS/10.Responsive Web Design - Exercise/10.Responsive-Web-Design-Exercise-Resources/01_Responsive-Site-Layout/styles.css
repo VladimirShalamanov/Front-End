@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1em;
+}
+
+header h1 {
+    padding: 1em 0.3em;
+}
+
+main {
+    display: flex;
+}
+
+main #nav {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    gap: 0.8em;
+    padding: 1em;
+    list-style-type: none;
+}
+
+main #nav li {
+    align-items: center;
+}
+
+main #nav li a {
+    text-decoration: none;
+    color: purple;
+}
+
+main article {
+    flex-basis: 80%;
+    padding: 2em 0 2em 0.5em;
+}
+
+main article ul {
+    padding: 2em 3em;
+}
+
+footer p {
+    padding: 0.5em;
+}
+
+header,
+main #nav,
+main article,
+footer {
+    background-color: rgb(89, 208, 232);
+    border-radius: 5px;
+}
+
+body,
+main {
+    gap: 0.5em;
+}
+
+@media screen and (max-width: 500px) {
+    main {
+        flex-direction: column;
+    }
+}
