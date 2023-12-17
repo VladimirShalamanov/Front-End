@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+h3 {
+    font: 1em/1.2 Georgia, serif;
+    font-weight: bold;
+}
+
+body {
+    background: rgb(238, 238, 238);
+    padding: 3em;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 300px;
+    height: auto;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 0 1em 0.2em rgb(0, 0, 0.2);
+}
+
+.card img {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.card .info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    padding: 0 1em;
+}
+
+.card .btn {
+    align-self: flex-end;
+    width: 25%;
+    padding: 0.3em;
+    margin: 1em;
+    color: white;
+    background: rgb(0, 153, 0);
+    border-radius: 5px;
+    cursor: pointer;
+}
