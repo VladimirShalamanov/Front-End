@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font: 16px/1.5 sans-serif;
+}
+
+body {
+    display: flex;
+    padding: 3em 4em;
+    background-color: rgb(238, 238, 238);
+}
+
+aside a {
+    color: rgb(0, 153, 0);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote {
+    font-family: Georgia, serif;
+}
+
+h1 {
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding-bottom: 1em;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3em;
+}
+
+header {
+    flex-basis: 100%;
+    border-bottom: 2px solid black;
+    padding-bottom: 1em;
+}
+
+main {
+    flex: 1 1 65%;
+}
+
+aside {
+    flex: 1 1 25%;
+}
+
+img[class^='img'] {
+    display: block;
+    padding: 0.5em;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid black;
+    box-shadow: 0 0 1em 0.5em rgb(0, 0, 0, 0.5);
+}
+
+.img-right {
+    float: right;
+    margin: 0 0 1em 1em;
+}
+
+.img-left {
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+
+.left-side,
+blockquote {
+    max-width: 45%;
+}
+
+.left-side {
+    padding-right: 1em;
+}
+
+blockquote {
+    float: right;
+    padding-left: 1em;
+    border-left: 5px solid lightgray;
+}
+
+blockquote p:nth-child(2) {
+    float: right;
+}
+
+aside ul {
+    padding: 0.5em 0;
+}
+
+@media screen and (min-width: 400px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+/* update */
+@media screen and (max-width: 400px) {
+    aside {
+        display: flex;
+        flex-basis: 100%;
+        flex-direction: column;
+        border: 3px solid red;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+/* update */
+@media screen and (max-width: 850px) {
+    aside {
+        display: flex;
+        flex-basis: 100%;
+        border: 3px solid red;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    body {
+        font-size: 21px;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    body {
+        font-size: 23px;
+    }
+}
