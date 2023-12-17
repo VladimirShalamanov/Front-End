@@ -1,0 +1,23 @@
+header h1 {
+    font-size: 30px;
+    color: purple;
+}
+
+header p {
+    font: 8px/1 sans-serif;
+    text-transform: uppercase;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+main .sign-up h2 {
+    color: white;
+}
+
+footer li a {
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,13 @@
+button {
+    cursor: pointer;
+}
+
+main .need-website button {
+    padding: 0.5em 1em;
+    background-color: white;
+    border-radius: 5px;
+}
+
+main .sign-up button {
+    padding: 0.3em;
+}

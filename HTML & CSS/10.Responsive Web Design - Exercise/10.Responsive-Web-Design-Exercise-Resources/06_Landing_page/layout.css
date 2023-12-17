@@ -1,0 +1,156 @@
+body {
+    padding: 1em 0;
+}
+
+main>* {
+    margin-bottom: 5em;
+}
+
+.border-title {
+    width: 60px;
+    border-bottom: 3px solid black;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5em;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+header .menu {
+    display: none;
+}
+
+main .need-website {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+}
+
+main .need-website article {
+    width: 40%;
+}
+
+main .need-website article p {
+    padding: 1em 0;
+}
+
+main .need-website img {
+    display: block;
+    width: 150px;
+    height: 150px;
+}
+
+.our-team,
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.our-team article,
+.testimonials article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5em;
+}
+
+.our-team .profile,
+.testimonials .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 25%;
+    gap: 1em;
+    text-align: center;
+}
+
+.our-team .profile img,
+.testimonials .profile img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+    padding: 2em;
+    background-color: purple;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    padding: 2em;
+    box-shadow: 0 0.4em 1.5em 0 rgb(0, 0, 0, 0.3) inset;
+}
+
+footer section {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    gap: 1em;
+}
+
+footer .sitemap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+footer .sitemap h4 {
+    flex-basis: 100%;
+}
+
+
+footer aside h4 {
+    padding-bottom: 1em;
+}
+
+footer aside i {
+    color: black;
+    padding-right: 1em;
+}
+
+footer aside li:first-child i {
+    padding-right: 1.3em;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+}
+
+@media screen and (max-width: 576px) {
+    header nav {
+        display: none;
+    }
+
+    header .menu {
+        display: block;
+    }
+
+    header .menu i {
+        padding-right: 0.3em;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+}
