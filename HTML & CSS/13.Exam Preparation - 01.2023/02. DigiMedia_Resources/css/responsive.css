@@ -1,0 +1,82 @@
+/* TODO: Add responsive styles here... */
+
+@media (width <=600px) {
+
+    .navbar .collapse {
+        display: none;
+    }
+
+    .navbar {
+        justify-content: center;
+        padding-top: 20px;
+    }
+
+    .container-fluid.hero img {
+        display: none;
+    }
+
+    .container-fluid .container h1 {
+        margin-top: 50px;
+    }
+
+    .container-fluid .container {
+        text-align: center;
+    }
+
+    .container-fluid .container .hero-btns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 150px;
+    }
+
+    #about-us .container-fluid .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+    }
+
+    #about-us .row h2 {
+        text-align: center;
+    }
+
+    #about-us .hero-btns {
+        margin-bottom: 50px;
+    }
+
+    #about-us .row .col-sm-6 {
+        max-width: 100%;
+        padding: 0 3em;
+    } 
+
+    #about-us .row .service-box {
+        text-align: start;
+    }
+
+    .about {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .about .row {
+        gap: 5em;
+    }
+
+    #contact-us {
+        text-align: center;
+    }
+
+    #contact-us .hero-btns {
+        display: none;
+    }
+
+    footer .contact-nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer .row {
+        padding: 0 2em;
+    }
+}
