@@ -1,0 +1,219 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Raleway", sans-serif;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.different {
+    font-weight: 100;
+}
+
+section article p {
+    font-family: "Raleway thin", serif;
+}
+
+section:not(.say-hello) {
+    margin-bottom: 1em;
+}
+
+body {
+    background-color: white;
+    padding: 1em;
+}
+
+section,
+footer {
+    background-color: #EFEFEF;
+}
+
+.nav-menu {
+    text-align: end;
+    font-size: 0.5em;
+    padding: 1.5em 1.5em 3em 0;
+}
+
+.nav-menu i {
+    padding-left: 1em;
+}
+
+.section-header article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 0 5em;
+}
+
+.section-header .start-up-content p {
+    max-width: 50ch;
+    padding: 1em 0;
+}
+
+.section-header .start-up-content .line {
+    display: block;
+    width: 1px;
+    height: 50px;
+    background-color: black;
+}
+
+.section-header img {
+    display: block;
+    width: 50%;
+    height: auto;
+}
+
+.history {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    padding: 2em 3em;
+}
+
+.history img {
+    display: block;
+    width: 40%;
+    height: auto;
+}
+
+.history article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2em;
+    padding: 2em 0;
+}
+
+.history .title {
+    display: flex;
+    gap: 1em;
+}
+
+.history .line {
+    display: block;
+    width: 50px;
+    height: 1px;
+    margin: auto 0;
+    background-color: black;
+}
+
+.history article p {
+    max-width: 70ch;
+}
+
+.history .socials {
+    display: flex;
+    gap: 1em;
+    list-style-type: none;
+}
+
+.history .socials a {
+    background-color: #909090;
+    color: white;
+    padding: 0.5em 0.7em;
+}
+
+.image-padding img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.example-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    padding: 3em;
+}
+
+.example-content article {
+    padding: 1em 0;
+    max-width: 50ch;
+}
+
+.example-content img {
+    display: block;
+    width: 35%;
+    height: auto;
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    padding: 8em 4em;
+}
+
+.gallery .list {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    list-style-type: none;
+    gap: 1em;
+}
+
+.gallery img {
+    width: 80%;
+    height: auto;
+}
+
+.gallery .list .picture:hover {
+    transform: scale(2);
+}
+
+.say-hello article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    padding: 2em 6em;
+}
+
+.say-hello form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 0 13em 2em 13em;
+}
+
+.say-hello form :nth-child(1),
+.say-hello form :nth-child(2) {
+    flex: 1 1 40%;
+    padding: 0.5em;
+}
+
+.say-hello form :nth-child(3),
+.say-hello form :nth-child(4) {
+    flex: 1 1 100%;
+    padding: 0.5em;
+}
+
+.say-hello button {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    font-size: 10px;
+    padding: 1em 0;
+}
