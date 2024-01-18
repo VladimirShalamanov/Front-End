@@ -1,0 +1,86 @@
+/* reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* typography */
+html {
+    font: 14px/2 Helvetica, sans-serif;
+}
+
+/* general */
+body {
+    background-color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    background-color: #1881B6;
+}
+
+img {
+    display: block;
+    width: 30%;
+    height: auto;
+}
+
+/* layout */
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    border: 5px solid black;
+    border-radius: 1em;
+    padding: 2em;
+    margin: 2em auto;
+}
+
+section article h5 {
+    color: black;
+    font-size: 1.5em;
+}
+
+section article h1 {
+    color: white;
+    font-weight: normal;
+    font-size: 2.5em;
+    padding: 0.5em 0;
+}
+
+section article p {
+    text-indent: 3em;
+    padding: 0.5em;
+}
+
+.site-buttons a {
+    text-decoration: none;
+    font-size: 12px;
+    border: 1px solid black;
+    padding: 0.3em 1em;
+    border-radius: 0.5em;
+    font-weight: bold;
+}
+
+section article .site-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+
+section article .site-buttons :nth-child(1) {
+    color: white;
+    background-color: #B6416D;
+
+}
+
+section article .site-buttons :nth-child(2) {
+    color: black;
+    background-color: #1881B6;
+}
