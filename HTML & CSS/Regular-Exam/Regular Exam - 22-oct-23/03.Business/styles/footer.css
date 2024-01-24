@@ -1,0 +1,42 @@
+footer {
+    background-color: #171720;
+}
+
+.footer-nav .container {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    padding: 2em;
+}
+
+
+.footer-nav h4 {
+    color: white;
+    font-size: 18px;
+    padding-bottom: 1.5em;
+}
+
+.footer-nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    list-style-type: none;
+}
+
+.footer-nav a{
+    color: #B3A6A8;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.copyright .container {
+    padding: 1em 2em;
+}
+
+.copyright p {
+    color: #B3A6A8;
+}
+
+.copyright {
+    border-top: 0.5px solid #3A3A41;
+}

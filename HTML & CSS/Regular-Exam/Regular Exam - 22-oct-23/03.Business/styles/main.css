@@ -1,0 +1,58 @@
+.site-information .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    padding: 5em;
+}
+
+.site-information .container p {
+    padding: 1em 0;
+}
+
+.site-information .container .button {
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid #B0825C;
+    color: #B0825C;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+.site-information {
+    border-bottom: 2px solid #CCCCCC;
+}
+
+.sponsor .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    padding: 3em 5em;
+}
+
+.sponsor article {
+    text-align: center;
+}
+
+.sponsor article h1 {
+    color: #B0825C;
+    padding-bottom: 1em;
+}
+
+.sponsor .image-sponsor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+}
+
+.sponsor .image-sponsor img {
+    width: 15%;
+    background-color: #DDDDDD;
+    padding: 1em;
+    border-radius: 50%;
+}

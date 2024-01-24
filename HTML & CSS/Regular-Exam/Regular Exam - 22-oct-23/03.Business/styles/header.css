@@ -1,0 +1,42 @@
+header {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 10em;
+}
+
+.site-head .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.site-logo {
+    width: 8%;
+}
+
+.navigation ul {
+    display: flex;
+    gap: 2em;
+    list-style-type: none;
+}
+
+.navigation a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.site-title .container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+    padding-top: 1em;
+    padding-left: 10em;
+    color: white;
+}
+
+.site-title .container p {
+    max-width: 60ch;
+}
