@@ -1,12 +1,12 @@
-|_In this course you will look_|_Project info of ReactJS_  |
+|*In this course you will look*|*Project info of ReactJS*  |
 |              :--:            |            :--:           |
-|[HTML & CSS](#html--css)      |[Repository Project](https://github.com/VladimirShalamanov/CraftCarsCollaboration-ReactJS-WebProject2023)|
+|[HTML & CSS](#html--css)      |[Project Repository](https://github.com/VladimirShalamanov/CraftCarsCollaboration-ReactJS-WebProject2023)|
 |[ReactJS](#reactjs)           |[Deployed Project](https://react-projectcraftcars-oct2023.web.app/)|
 
 ----
 
+# HTML & CSS
 > [!NOTE]
-> # HTML & CSS
 > The aim of the course "HTML & CSS" is to provide basic knowledge of web technologies and more specifically familiarization with
 > * HTML5
 > * CSS3.
@@ -34,8 +34,8 @@
 
 ----
 
+# ReactJS
 > [!NOTE]
-> # ReactJS
 > The training provides knowledge and practical skills for the development of Single Page Applications (SPA) using ReactJS technology - one of the most popular and fast client interface rendering libraries, developed and supported by Facebook and Instagram. Special attention will be paid to
 > * JSX syntax
 > * working with Requests and Promises
